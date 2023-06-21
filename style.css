@@ -2,6 +2,10 @@ html{
     background-color:grey;
 }
 
+h1{
+    font-size: 42px;
+}
+
 body{
     display: flex;
     justify-content: center;
@@ -14,6 +18,9 @@ body{
 
 .calculator{
     background-color: rgb(67, 130, 171);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(37, 37, 37, 0.95);
 }
 
 
@@ -24,12 +31,13 @@ body{
 }
 
 .result-container{
-    width: 307px;
+    width: 315px;
     height: 98px;
     border: 2px solid black;
     font-size:30px;
     text-align: right;
     border-radius:10px;
+    background-color: rgb(63, 65, 68);
 }
 
 .previousNumber,.currentNumber{
@@ -50,6 +58,7 @@ button{
     font-size:30px;
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.75);
+    margin: 3px;
 }
 
 .number:hover{
